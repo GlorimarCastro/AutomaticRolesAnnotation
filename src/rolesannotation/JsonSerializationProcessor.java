@@ -80,7 +80,7 @@ public class JsonSerializationProcessor implements EntityDocumentProcessor {
 		JsonSerializationProcessor jsonSerializationProcessor = new JsonSerializationProcessor();
 		ExampleHelpers
 				.processEntitiesFromWikidataDump(jsonSerializationProcessor);
-		jsonSerializationProcessor.close();
+//		jsonSerializationProcessor.close();
 	}
 
 	/**
